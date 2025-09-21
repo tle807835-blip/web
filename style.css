@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;    
+}
+.box{
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+.find{
+    position: relative;
+}
+.find i{
+    position: absolute;
+    left: 25px;
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.find input{
+    padding-left: 50px;
+    font-size: 15px;
+    width: 563px;
+    height: 48px;
+    border-radius: 62px;
+    border: 1px solid rgba(242, 240, 241, 1);
+    background-color:  rgba(242, 240, 241, 1);
+    margin-bottom: 10px;
+}
+.tieude{
+    margin-top: 16px;
+    margin-right: -42px;
+}
+.box1:last-child{
+    margin-right: 0;
+}
+.shop{
+    margin-top: 5px;
+}
+.img{
+    height: 663px; 
+}
+.star4{
+    position: absolute;
+    margin-top: -400px;
+} 
+.star41{
+    position: absolute;
+    margin-top: -600px;
+    margin-left: 450px;
+}
+.s41{
+    width: 160px;
+    height: 160px;
+}
+.setion{
+    background-color: rgba(242, 240, 241, 1);
+    height: 663px;
+}
+.box2{
+    display: flex;
+}
+.mota{
+    margin-top: 150px;
+    font-size: 50px;
+}
+.button{
+    color: #ffffff;
+    background-color: black;
+    padding: 10px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.hmuc{
+    display: flex;
+    margin-top: 30px;
+}
+.th{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 50px;
+}
+.muc{
+    margin-left: 30px;
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+}
+.muc:last-child{
+    border-right: 0;
+}
+.muc:first-child{
+    margin-left: 0;
+}
+.vb{
+    color: rgba(0, 0, 0, 0.6);
+    margin: 30px 2px;
+}
+.box3{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    height: 122px;
+}
+.logo{
+    align-content: center;
+    margin-right: 50px;
+}
+.trm{
+    text-align: center;
+}
+.menu{
+    display: flex;
+}
+.bodo{
+    background-color: rgba(240, 238, 237, 1);
+    border-radius: 8px;
+}
+.hinhanh{
+    width: 295px;
+    height: 295px;
+}
+.sanpham{
+    margin-right: 20px;
+}
+.sanpham:last-child{
+    margin-right: 0;
+}
+.trm{
+    margin: 40px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.feedback{
+    display: flex;
+    position: relative;
+}
+.star{
+    color: rgba(255, 198, 51, 1);
+    font-size: 18px;
+}
+.namnam{
+    position: absolute;
+    right: 190px;
+    margin-top: 6.4px;
+    font-size: 14px;
+}
+.ao{
+    font-size: 18px;
+    margin: 8px 0;
+    font-weight: 600;
+}
+.tien{
+    display: flex;
+    height: 27px;
+}
+.t1{
+    font-size: 14px; 
+    font-weight: 600;
+        margin-top: 6px;
+
+}
+.t2{
+    font-size: 14px;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+    margin-top: 6px;
+}
+.button1{
+    background-color: rgba(255, 51, 51, 0.1);
+    color: rgba(255, 51, 51, 1);
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 40px;
+    align-content: center;
+    text-align: center;
+    padding: 0px 10px;
+}
+.button2{
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    padding: 10px 50px;
+}
+.box4{
+    background-color: rgba(240, 240, 240, 1);
+    border-radius: 40px;
+    margin-top: 40px;
+    justify-content: center;
+    justify-items: center;
+    width: 1240px;
+}
+.danhmuc{    
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+}
+.box5{
+    display: flex;
+    margin-top: 30px;
+}
+.dg{
+    width: 363px;
+    height: 289px;
+    border-radius: 40px;
+}
+.phongcachdg{
+    height: 289px;
+    border-radius: 40px;
+}
+.dongian{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 40px;
+}
+
+.ll{
+    width: 728px;
+    height: 289px;
+    border-radius: 40px;
+    margin-left: 70px;
+}
+.phongcachll{
+    height: 289px;
+    border-radius: 40px;
+}
+
+.lichlam{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 40px;
+}
+.dh{
+    width: 728px;
+    height: 289px;
+    border-radius: 40px;
+}
+.phongcachdh{
+    height: 289px;
+    border-radius: 40px;
+}
+
+.dahoi{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 40px;
+}
+.gy{
+    width: 363px;
+    height: 289px;
+    border-radius: 40px;
+}
+.phongcachgy{
+    height: 289px;
+    width: 448px;
+    border-radius: 40px;
+}
+.phongcachgy:first-child{
+    margin-left: -60px;
+}
+.gym{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 40px;
+}
+.container1{
+    width: 1100px;
+}
+.camnhan{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 70px;  
+}
+.box6{
+    display: flex;
+    margin-top: 30px;
+    width: 1242px;
+}
+.box7{
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+.box7:last-child{
+    margin-right: 0;
+}
+
+.box8{
+    margin-top: 130px;
+    position: relative;   
+    justify-items: center;
+}
+.box9{
+    display: flex;
+    background-color: black;
+    color: #ffffff;
+    position: absolute;
+    top: -50px;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-between;
+    width: 1245px;
+    padding: 25px 50px;
+    border-radius: 20px;
+}
+.box9:last-child{
+    margin-right: -145px;
+}
+.update{
+    font-size: 40px;
+    font-weight: 700;
+    width: 550px;
+}
+.box10{
+    background-color: rgba(240, 240, 240, 1);
+    width: 100%;
+    height: 100px;
+}
+
+.mail{
+    position: relative;
+}
+.mail i{
+    position: absolute;
+    left: 20px;
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.mail input{
+    padding-left: 50px;
+    font-size: 15px;
+    width: 349px;
+    height: 44px;
+    border-radius: 62px;
+    border: 1px solid rgba(242, 240, 241, 1);
+    background-color:  rgba(242, 240, 241, 1);
+    margin-bottom: 10px;
+}
+.thu{
+    position: absolute;
+}
+.button3{
+    width: 349px;
+    height: 44px;
+    border-radius: 62px;
+    font-size: 16px;
+    color: black
+}
+.box16{
+    background-color: rgba(240, 240, 240, 1);
+}
+.box17{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.box11{
+    width: 248px;
+    height: 179px;
+    margin-top: 20px;
+}
+.box17:last-child{
+    margin-right: -160px;
+}
+.shop28{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.duoishop{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 40px;
+}
+.icon{
+    display: flex;
+}
+.icon1{
+    background-color: #ffffff;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-color: 1px solid rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+}
+.icon2{
+    margin-right: 10px;
+    background-color: #000000;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    border-color: 1px solid rgba(0, 0, 0, 0.3)
+}
+.icon2 i{
+    color: #ffffff;
+    font-size: 15px;
+}
+.muc1{
+    color: rgba(0, 0, 0, 1);
+    font-size: 16px;
+}
+.muc2{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
+.box18{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.lk{
+    margin-top: -40px;
+}
